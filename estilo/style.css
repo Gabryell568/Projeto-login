@@ -7,3 +7,17 @@
     --cor3: #050A26;
     --cor4: #0E3D59;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    width: 100vw;
+}
+div#formulario{
+    height: 150px;
+    width: 600px;
+    margin: auto;
+    background-color: #0E3D59;
+}
