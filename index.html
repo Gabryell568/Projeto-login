@@ -10,18 +10,26 @@
     <main>
         <section id="login">
             <div id="imagem">
-
+                
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as cofigurações no seu ambiente</p>
+                <p>Seja bem vindo(a) invocador. Faça login para acessar sua conta e poder fazer as cofigurações no seu ambiente.</p>
                 <form action="cadastro.php" method="post">
-                    <label for="iuser">User:</label>
-                    <input type="text" name="user" id="iuser">
+                    <div id="user">
+                        <label for="iuser">User:</label>
+                        <input type="text" name="user" id="iuser">
+                    </div>
                    
-                    <label for="ipass">Senha:</label>
-                    <input type="password" name="pass" id="ipass">
+                    <div id="password">
+                        <label for="ipass">Senha:</label>
+                        <input type="password" name="pass" id="ipass">
+                    </div>
 
+                    <div id="acess">
+                        <input type="submit" value="Acesse">
+                    </div>
+                    
                 </form>
             </div>
         </section>
