@@ -5,57 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilo/style.css">
-    
-    <title>Login screen</title>
+    <title>Login</title>
 </head>
 <body>
-    <main id="container">
-        <div id="formulario">
+    <main>
+        <div id="container">
             <div id="header_form">
                 <h1>Login</h1>
                 <i class="fa-solid fa-moon"></i>
             </div>
             <div id="social-media">
                 <a href="#">
-                    <img src="imagens/facebook.png" alt="Facebook logo" class="logo">
+                    <img src="imagens/facebook.png" alt="Facebook logo" class="logo-media">
                 </a>
                 <a href="#">
-                    <img src="imagens/google-logo.png" alt="google logo" class="logo">
+                    <img src="imagens/github-logo.png" alt="github logo" class="logo-media">
                 </a>
-                <a href="#">
-                    <img src="imagens/github-logo.png" alt="github logo" class="logo">
+                <a href="">
+                    <img src="imagens/google-logo.png" alt="logo google" class="logo-media">
                 </a>
             </div>
-                <div #inputs>
-                    <div class="input-box">
-                        <label for="iname">
-                            Name
-                            <i class="fa-solid fa-user"></i>
-                            <input type="text" name="name" id="iname">
-                        </label>
-                    </div>
-                    <div class="input-box">
-                        <label for="iemail">
-                            email
-                            <i class="fa-solid fa-envelope"></i>
-                            <input type="email" name="email" id="iemail">
-                        </label>
-                    </div>
-                    <div class="input-box">
-                        <label for="isenha">
-                            senha
-                            <i class="fa-solid fa-lock"></i>
-                            <input type="password" name="senha" id="isenha">
-                        </label>
-                    </div>
-            </div>
-            <div #footer_form>
-                    <a href="#">
-                        Esqueci minha senha
-                    </a>
-                    <button type="submit" id="login-button">
-                        acessar
-                    </button>
+            <div id="inputs">
+                <div class="name">
+                    <label for="iname">
+                        nome <br>
+                        <i class="fa-solid fa-user"></i>
+                    </label>
+                    <input type="text" name="name" id="iname">
+                </div>
+                <div class="senha">
+                    <label for="ipassword">
+                        senha
+                        <br>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="ipassword">
+                    </label>
+                </div>
+                <button type="submit" id="button-acess">
+                    Acesse
+                </button>
             </div>
         </div>
     </main>
